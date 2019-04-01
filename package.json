@@ -154,5 +154,5 @@
     "test-ci": "yarn test-coverage && yarn report-coverage",
     "test-coverage": "rm -rf coverage/* && nyc yarn test --reporter mocha-multi-reporters --reporter-options configFile=./test/mochareporters.json"
   },
-  "version": "1.12.3"
+  "version": "1.12.3-bf1"
 }
